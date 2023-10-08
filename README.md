@@ -22,6 +22,8 @@ git config -–global user.email “[email address]”
 --------------------------------------------------------------------------------------------------
 git init  |=> This command is used to start a new repository.
 --------------------------------------------------------------------------------------------------
+mkdir |=> make folder |=> cd folder |=> touch file.txt
+---------------------------------------------------------------------------------------------------
 git add . OR [fileName] |=> This command adds a file to the staging area. one or more to the staging area
 --------------------------------------------------------------------------------------------------
 git status  |=> This command lists all the files that have to be committed.
