@@ -57,14 +57,36 @@ git branch
 git branch [branch name]  
 |=> This command creates a new branch.
 
+git branch -a
+|=> This command List all brance local and Remote
+
 git branch -d [branch name]  
 |=>This command deletes the feature branch.
+
+git push origin --delete [branch name]
+|=>Delete a remote branch
+
 
 git checkout [branch name]  
 |=>This command is used to switch from one branch to anothe
 
 git checkout -b [branch name]  
 |=> This command creates a new branch and also switches to it.
+
+git checkout -b [branch name] origin/[branch name]
+|=>Clone a remote branch and switch to it
+
+git branch -m [old branch name] [new branch name]
+|=>Rename a local branch
+
+git checkout -	
+|=>Switch to the branch last checked out
+
+git checkout -- [file-name.txt]
+|=>Discard changes to a file
+
+git merge [source branch] [target branch]
+|=> Merge a branch into a target branch
 
 git merge [branch name]  
 |=>This command merges the specified branch’s history into the current branch.
@@ -117,6 +139,12 @@ git stash list
 
 git stash drop  
 =>This command discards the most recently stashed changeset.
+
+git stash
+|=>Stash changes in a dirty working directory
+
+git stash clear	
+|=>Remove all stashed entries
 
 
 
